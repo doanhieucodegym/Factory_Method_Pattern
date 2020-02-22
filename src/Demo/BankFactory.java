@@ -11,7 +11,9 @@ public class BankFactory {
             case VIETCOMBANK:
                 return new ImplVietComBank();
             default:
+                System.out.println(" thay doi  ");
                 throw new IllegalArgumentException("This bank type is  unsupported");
+
         }
     }
 }
