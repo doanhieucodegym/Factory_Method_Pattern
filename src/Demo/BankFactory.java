@@ -4,7 +4,7 @@ import static Demo.BankType.TPBANK;
 
 public class BankFactory {
     public BankFactory(){}
-    public static final Bank getBank(BankType bankType){
+    public static Bank getBank(BankType bankType){
         switch (bankType){
             case TPBANK:
                 return new ImplTPBank();

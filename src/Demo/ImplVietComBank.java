@@ -5,4 +5,9 @@ public class ImplVietComBank implements Bank {
     public String getBankName() {
         return "VietComBank";
     }
+
+    @Override
+    public void getLoan() {
+
+    }
 }
